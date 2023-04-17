@@ -1,8 +1,11 @@
-import tkinter
 a = int(input("plese enter your first number = "))
 
 while True:
-    b = input("+ = add\n""- = subtract\n""* = multiply\n""/ = devide\n""choose one type of calculation you want to do = ")
+    b = input("+ = add\n"
+              "- = subtract\n"
+              "* = multiply\n"
+              "/ = devide\n"
+              "choose one type of calculation you want to do = ")
     if b == "+":
          print(a , "+")
          break
